@@ -7,7 +7,7 @@ const TaskStatus = () => {
 
     const params = useParams()
 
-    const navigate = useNavigate();
+    // const navigate = useNavigate();
 
     const getAllTasks = async (searchValue) => {
         const apiUrl = `${process.env.REACT_APP_API_BASE_URL}/task/user/${params.id}/find?search_q=${searchValue}`;
