@@ -1,0 +1,122 @@
+.task-list-page__bg-container {
+    min-height: 100vh;
+    padding: 0 2rem;
+}
+
+.task-list-page__main-heading {
+    text-align: center;
+    margin: 1rem;
+}
+
+.task-list-page__search-and-add-btn-wrapper {
+    display: flex;
+    gap: 20px;
+    height: 40px;
+    margin: 2rem 0;
+}
+
+.task-list-page__search-input {
+    min-width: 310px;
+    width: 30%;
+    padding: 0 10px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    outline: none;
+    font-size: 14px;
+}
+
+.task-list-page__add-btn {
+    background-color: rgb(0, 98, 255);
+    padding: 0 20px;
+    outline: none;
+    border: 0;
+    border-radius: 4px;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+}
+
+.task-list-page__columns-wrapper {
+    display: flex;
+    gap: 5%;
+}
+
+.task-list-page__column-cards {
+    border: 2px solid black;
+    width: 30%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.task-list-page__task-count-and-column-title-wrapper {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.todo-column {
+    background-color: rgb(255, 71, 71);
+}
+
+.in-progress-column {
+    background-color: rgb(249, 252, 57);
+}
+
+.done-column {
+    background-color: rgb(53, 255, 141);
+}
+
+.task-list-page__tasks-count {
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: white;
+}
+
+.task-list-page__column-titles {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.task-list-page__task-wrappers {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.task-list-page__task-items {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+    border-radius: 4px;
+    border: 1px solid rgb(149, 149, 149);
+    /* background-color: rgb(203, 245, 255); */
+}
+
+.task-list-page__task-title {
+    width: 35%;
+    font-weight: 500;
+}
+
+.task-list-page__task-assignee {
+    width: 35%;
+    font-weight: 500;
+    color: rgb(0, 177, 253);
+    cursor: pointer;
+    text-align: center;
+}
+
+.task-list-page__task-status {
+    width: 30%;
+    text-align: end;
+}
