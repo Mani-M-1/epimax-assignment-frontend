@@ -14,10 +14,49 @@
 .task-status-page__tasks-items {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     list-style-type: none;
     background-color: aliceblue;
     margin-bottom: 10px;
     padding: 10px;
     border-radius: 4px;
     border: 2px solid rgb(220, 220, 220);
+}
+
+.task-status-page__task-title {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.task-status-page__select-item {
+    padding: 6px;
+    border: 2px solid rgb(201, 201, 201);
+    border-radius: 5px;
+    background-color: rgb(223, 240, 255);
+}
+
+.task-status-page__submit-btn-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.task-status-page__submit-btn {
+    padding: 10px 36px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: rgb(0, 128, 255);
+}
+
+.task-status-page__loading-card {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
 }
